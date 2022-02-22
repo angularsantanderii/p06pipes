@@ -17,6 +17,9 @@ export class AppComponent {
     apellidos: 'De Niro'
   }
 
+  cantidad = 1576571.657657;
+  moneda = '€';
+
   ngOnInit() {
     this.id = '000' + this.id;
   }
